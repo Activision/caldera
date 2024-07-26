@@ -1,0 +1,392 @@
+#usda 1.0
+(
+    "usd file created with the example script from the caldera data set."
+    endTimeCode = 900
+    framesPerSecond = 30
+    metersPerUnit = 0.0254
+    startTimeCode = 0
+    subLayers = [
+        @./map_source/mp_wz_island.usd@,
+        @./layers/cameras.usd@,
+        @./layers/breadcrumbs.usd@,
+        @./layers/endpoints.usd@
+    ]
+    timeCodesPerSecond = 30
+    upAxis = "Z"
+)
+
+over "world"
+{
+    over "mp_wz_island"
+    {
+        over "mp_wz_island_paths"
+        {
+            over "mp_wz_island_geo"
+            {
+                over "map_phosphate_mine" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_p" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_infil_ch3" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_gulags" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_d" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_c" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_exfil_ch3" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_e" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_f" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_h" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_j" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_k" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_l" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_o" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_ruins" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "mv_intel" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_vista" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_village" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_i" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_b" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_airstrip" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_docks" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_g" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "st_main"
+                {
+                    over "st_b" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_d" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_c" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_f" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_e" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_h" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_g" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_j" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_i" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_l" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_k" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_n" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_p" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_o" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                    }
+                }
+
+                over "map_beachhead" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_subpen" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_tile_n" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_agricultural_center" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_airfield" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_arsenal" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_capital" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+
+                over "map_caldera" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                }
+            }
+        }
+    }
+}
+
