@@ -132,7 +132,7 @@ usdview map_source/prefabs/br/wz_vg/mp_wz_island/commercial/hotel_01.usd
 
 ## Terrain
 
-All of the terrain lives in a separate branch of the tree. For many of the other prefabs, loading a subsection of the terrain is needed to get the full picture. By default, the ```caldera.usda``` will load a simplified version of the terrain for the entire map. All the children under the "st_main" prim have a variant set called "district_lod" to switch between the simple and full representation. The clutter ( small items scattered around the terrain ) have their "purpose" se to render, so they can be turned on and off with a global setting.
+All of the terrain lives in a separate branch of the tree. For many of the other prefabs, loading a subsection of the terrain is needed to get the full picture. By default, the ```caldera.usda``` will load a simplified version of the terrain for the entire map. All the children under the "st_main" prim have a variant set called "district_lod" to switch between the simple and full representation. The clutter ( small items scattered around the terrain ) have their "purpose" set to render, so they can be turned on and off with a global setting.
 
 The full terrain is accessible through this scene:
 
