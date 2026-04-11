@@ -61,7 +61,7 @@ Now you should see the entire scene represented as proxies, and a collection of 
 
 ![usdview](images/usdview_camera.png)
 
-The next thing is to select a "primitive' in the outline view. Primitives are just nodes addressed by a path. Select the prim ```/world/mp_wz_island/mp_wz_island_paths/mp_wz_island_geo/map_capital```. You can do this by browsing the tree to find this path, or paste the full path into the address bar at the top.
+The next thing is to select a 'primitive' in the outline view. Primitives are just nodes addressed by a path. Select the prim ```/world/mp_wz_island/mp_wz_island_paths/mp_wz_island_geo/map_capital```. You can do this by browsing the tree to find this path, or paste the full path into the address bar at the top.
 
 If you look at the metadata pane of USDView with this prim selected, you will see a "district LOD" variant field. Here you can choose how this part of the scene is represented. Currently this is set to "proxy" which is a crude polygon soup we created as a proxy. Go ahead and switch that to "full":
 
@@ -83,7 +83,7 @@ And select 'full' for the LOD variant here as well:
 
 This jumps to the highest representation of the terrain. This includes the clutter (all of the small items like grass placed on the terrain, represented by a point instance). If the small details like grass and trees don't show up at this point, it might be because the 'render' purpose is hidden. The clutter is tagged with this purpose to make it easy to hide these when they slow the scene rendering down too much. To show them, make sure you have Display, Purpose, Render checked.
 
-We have now loaded all the details we have available for this section of the map. Included in the data set is also a [Python](https://python.org) file (```caldera.py```) containing an example of how to do several of these things in script. This is how the caldera.usd was generated from ```map_source/mp_wz_island.usd```. To just inspect the data though python, you can install the OpenUsd python bindings through [Pip](https://pypi.org/project/usd-core/).
+We have now loaded all the details we have available for this section of the map. Included in the data set is also a [Python](https://python.org) file (```caldera.py```) containing an example of how to do several of these things in script. This is how the caldera.usda was generated from ```map_source/mp_wz_island.usd```. To just inspect the data through Python, you can install the OpenUSD Python bindings through [Pip](https://pypi.org/project/usd-core/).
 
 ## Player Data
 
@@ -112,7 +112,7 @@ Another way to reduce the immediate load on the system when loading the map is t
 
 ```usdview –unloaded map_source/mp_wz_island.usd```
 
-Please note that this still takes significantly longer than the method described earlier. Don't forgot to change the shading back to something other then points:
+Please note that this still takes significantly longer than the method described earlier. Don't forget to change the shading back to something other than points:
 
 ![usdview](images/usdview_unloaded.png)
 
@@ -132,7 +132,7 @@ usdview map_source/prefabs/br/wz_vg/mp_wz_island/commercial/hotel_01.usd
 
 ## Terrain
 
-All of the terrain lives in a separate branch of the tree. For many of the other prefabs, loading a subsection of the terrain is needed to get the full picture. By default, the ```caldera.usda``` will load a simplified version of the terrain for the entire map. All the children under the "st_main" prim have a variant set called "district_lod" to switch between the simple and full representation. The clutter ( small items scattered around the terrain ) have their "purpose" se to render, so they can be turned on and off with a global setting.
+All of the terrain lives in a separate branch of the tree. For many of the other prefabs, loading a subsection of the terrain is needed to get the full picture. By default, the ```caldera.usda``` will load a simplified version of the terrain for the entire map. All the children under the "st_main" prim have a variant set called "district_lod" to switch between the simple and full representation. The clutter ( small items scattered around the terrain ) have their "purpose" set to render, so they can be turned on and off with a global setting.
 
 The full terrain is accessible through this scene:
 
